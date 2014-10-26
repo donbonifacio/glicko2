@@ -1,0 +1,3 @@
+mkdir dist
+javac src/main/java/org/goochjs/glicko2/*.java -d dist
+jar cvf dist/glicko2.jar dist/org/goochjs/glicko2/*.class
